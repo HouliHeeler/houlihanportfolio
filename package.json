@@ -1,5 +1,6 @@
 {
   "name": "houlihanportfolio",
+  "build_staging": "PUBLIC_URL=https://lukehoulihanportfolio.com/ react-scripts build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

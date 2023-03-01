@@ -23,7 +23,7 @@ function ProjectContainer() {
         url={VornbrockImage}
         stance="even"
         siteUrl="https://vornbrock.com"
-        blurb="A web app built to help you find recipes and compile the ingredients into a single, manageable shopping list" />
+        blurb="A custom website built on the React library to exact client specifications" />
     </section>
   )
 }
