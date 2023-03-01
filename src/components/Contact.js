@@ -1,10 +1,10 @@
 import { FaPhone, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 function Contact() {
   return (
-    <Fade>
-      <section className='project--container'>
+    <section className='project--container'>
+      <Fade cascade triggerOnce="true">
         <p className='contact--blurb'>If you’re interested in learning more, I would love to hear from you. Talking about the software development field is always a great time, so feel free to contact me through any of the following channels!</p>
         <ul className="contact--list">
           <li className='contact--item'>
@@ -24,8 +24,8 @@ function Contact() {
             <a href='https://github.com/HouliHeeler' target="_blank" rel="noreferrer">github.com/HouliHeeler</a>
           </li>
         </ul>
-      </section>
-    </Fade>
+      </Fade>
+    </section>
   )
 }
 

@@ -1,12 +1,12 @@
 import ResumeImg from '../images/resume.png'
 import ResumePDF from '../images/Luke_Houlihan_Resume_22.pdf'
 import { FaFileDownload } from 'react-icons/fa'
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 function Bio() {
   return (
-    <Fade>
-      <section className="project--container, about--me">
+    <section className="project--container, about--me">
+      <Fade cascade triggerOnce="true">
         <h2>A Brief Bio</h2>
         <div>
           <p>My name is Luke Houlihan, and I am a burgeoning Software Engineer. This career quickly piqued my interests, with its constant problem solving and outside the box thinking. Every day presents a new coding challenge that provides so many great 'Eureka' moments. The feeling of solving something that had previously been a roadblock is underappreciated!</p>
@@ -24,8 +24,8 @@ function Bio() {
           </a>
           <a href={ResumePDF} download ><FaFileDownload />Download PDF</a>
         </div>
-      </section>
-    </Fade>
+      </Fade>
+    </section>
   )
 }
 

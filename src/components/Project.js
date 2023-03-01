@@ -1,10 +1,10 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 function Project({ projectName, url, blurb, stance, siteUrl }) {
   return (
     <section className="project">
         {stance === 'even' ?
-            <Fade left>
+            <Fade direction="left" duration="3000" triggerOnce="true">
                 <div className="project--items">
                     <a href={siteUrl} target="_blank" rel="noreferrer">
                         <img src={url} alt={projectName} />
@@ -16,7 +16,7 @@ function Project({ projectName, url, blurb, stance, siteUrl }) {
                 </div>
             </Fade>
              :
-            <Fade right>
+            <Fade direction="right" duration="3000" triggerOnce="true">
                 <div className="project--items">
                     <div>
                         <h4>{projectName}</h4>

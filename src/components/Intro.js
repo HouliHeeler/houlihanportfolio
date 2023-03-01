@@ -1,8 +1,8 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 function Intro() {
   return (
-    <Fade>
+    <Fade duration="3000" triggerOnce="true">
       <section className="intro">
         <h1>Hi, I'm Luke.</h1>
         <h1>Your next Software Engineer.</h1>

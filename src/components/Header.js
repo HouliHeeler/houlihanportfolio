@@ -1,16 +1,16 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 function Header({ scrollDown, projectsRef, aboutRef, contactRef }) {
   return (
-    <Fade>
-      <section className="header delay">
+    <section className="header">
+      <Fade cascade triggerOnce="true">
         <ul className="header--links">
             <li onClick={() => scrollDown(projectsRef)}>Projects</li>
             <li onClick={() => scrollDown(aboutRef)}>About</li>
             <li onClick={() => scrollDown(contactRef)}>Contact</li>
         </ul>
-      </section>
-    </Fade>
+      </Fade>
+    </section>
   )
 }
 
