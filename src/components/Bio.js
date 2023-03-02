@@ -1,5 +1,5 @@
-import ResumeImg from '../images/resume.png'
-import ResumePDF from '../images/Luke_Houlihan_Resume_22.pdf'
+import ResumeImg from '../images/LukeHoulihanResume.png'
+import ResumePDF from '../images/LukeHoulihanResume.pdf'
 import { FaFileDownload } from 'react-icons/fa'
 import { Fade } from "react-awesome-reveal";
 
